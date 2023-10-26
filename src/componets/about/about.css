@@ -1,7 +1,7 @@
 .about__container{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
 }
 .about__me{
     width: 100%;
@@ -25,7 +25,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
 }
-.about__card{
+.about__card , .about__card__tab {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
