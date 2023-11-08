@@ -21,7 +21,7 @@
 }
 .experience__container > div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transtion);
@@ -62,7 +62,7 @@
    }
    .experience__container > div{
     width: 100%;
-    padding: 2rem;
+    padding: 8px;
     margin: 0 auto;
    }
    .experience__content{
@@ -77,5 +77,13 @@
     }
     section{
         margin-top: 2rem;
+    }
+    .experience__container2 > div{
+       padding: 1rem
+    }
+    .custom-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 }

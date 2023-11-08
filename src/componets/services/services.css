@@ -5,20 +5,21 @@
 }
 .service   {
     background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transtion);
 }
 .service:hover{
-    background: transparent;
+
     border-color: var(--color-primary-variant);
+    background-color: #4D51FF49;
     cursor: default;
 }
 .service__head{
     background: var(--color-primary);
     padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
+    border-radius:  2rem;
     box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);
 }
 .service__head h3{
@@ -27,7 +28,7 @@
     text-align: center;
 }
 .service__list{
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 .service__list li{
     display: flex;
@@ -37,6 +38,7 @@
 .service__list-icon{
     color: var(--color-primary);
     margin-top: 2px;
+    width: 60px;
 }
 .service__list{
     font-size: 0.9rem;

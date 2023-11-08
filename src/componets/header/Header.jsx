@@ -14,7 +14,7 @@ const Header = () => {
         <PraticlesBackground/>
       <div className="container flex md:justify-between md:items-center  header__container">
         <div className={"hero-left"}>
-          <h5>HELLO THERE, WELCOME TO MY SITE</h5>
+          <h5 className={"mt-14"}>HELLO THERE, WELCOME TO MY SITE</h5>
           <h1 className={"md:text-5xl py-2 text-light text-2  name"}>I'm Noor Mustafa</h1>
           <h2 className={"md:text-5xl f-end-d text-garident"}>Front-end Developer</h2>
           <p className={"tag-line text-2 py-2"}>Designing sleek webiste with React and Nextjs</p>

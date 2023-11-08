@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Headerbar(props) {
       return (
-          <div className="mx-auto md:flex block items-center container bg-black bg-opacity-80 fixed top-0 left-1/2 transform -translate-x-1/2 z-50 justify-between  w-full  ">
+          <div className="mx-auto md:flex block items-center mb-8 container bg-black bg-opacity-80 fixed top-0 left-1/2 transform -translate-x-1/2 z-50 justify-between  w-full  ">
                 <div className="md:text-3xl  text-xl text-center sm:my-4">
                     <span>Noor</span><span className={"text-2 px-2 text-garident"}>Mustafa</span>
                 </div>

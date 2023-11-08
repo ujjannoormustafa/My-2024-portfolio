@@ -9,6 +9,7 @@ import Contact from './componets/contact/Contact'
 import Footer from './componets/footer/Footer'
 import Headerbar from "./componets/navbar/Headerbar";
 import About2 from "./about2/About2";
+import Skills from "./componets/skills/Skills";
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
       {/*<About2/>*/}
     <Experience />
     <Services />
+      <Skills/>
     <Portfolio />
      {/*<Testimonials />*/}
     <Contact />
