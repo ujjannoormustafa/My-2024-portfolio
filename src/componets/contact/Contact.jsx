@@ -19,6 +19,22 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+      <div className="bg-gradient-to-tr from-purple-400 via-sky-400 to-indigo-500 pl-40 mb-3 ">
+        <div className="text-start w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+          <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+            <span className="block text-white">Let's turn your ideas into captivating experiences.<br/> Ready to start your next project together?</span>
+            <span className="block text-[#4db5ff] ">It's today or never.</span>
+          </h2>
+          <div className="lg:mt-0 lg:flex-shrink-0">
+            <div className="mt-12 inline-flex rounded-md shadow">
+              <a href="" className="btn btn-primary text-white font-semibold">Contact Me</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 

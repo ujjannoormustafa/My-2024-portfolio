@@ -11,7 +11,7 @@ const Header = () => {
   return (
     
     <header>
-        <PraticlesBackground/>
+        {/*<PraticlesBackground/>*/}
       <div className="container flex md:justify-between md:items-center  header__container">
         <div className={"hero-left"}>
           <h5 className={"mt-14"}>HELLO THERE, WELCOME TO MY SITE</h5>

@@ -637,7 +637,7 @@ const About = () => {
               <small>20+ Completed</small>
             </article>
           </div>
-            <h5 className={"text-2 text-center my-4 "}>Who am i </h5>
+            <h5 className={"text-2 text-center my-4 lg:hidden "}>Who am i </h5>
           {/* TabsAbout section */}
             <TabAbout/>
           {/* End TabsAbout Section */}
