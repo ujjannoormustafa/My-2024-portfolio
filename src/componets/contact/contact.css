@@ -1,15 +1,15 @@
 .container.contact__container{
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 30% 64%;
+    gap: 6%;
 }
 .contact__options{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
-.contact__option{
+.contact__option, .contact__option_from{
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
@@ -18,14 +18,19 @@
     transition: var(--transition);
   
 }
+.c-border{
+    border-radius: 1.2rem;
+}
 .contact__option:hover{
     background-color: transparent;
     border-color: var(--color-primary-variant);
 }
 .contact_option-icons{
-    margin-top: 0.7rem;
-    margin-bottom: 0.5rem;
-    font-size: 25px;
+    padding: 5px;
+    width: 39px;
+    font-size: 33px;
+    display: block;
+    margin: 0.5rem auto;
 }
 .font__mail{
     font-size: 11px;
