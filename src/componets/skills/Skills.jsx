@@ -22,8 +22,8 @@ const Skills = () => {
         <div className={"container w-full py-2  experience__container2 "}>
             <div>
                 <h3 className={"text-center py-4"} >Technology I use</h3>
-                <div className="md:flex md:justify-around flex flex-wrap justify-between  custom-grid">
-                    <article className="experience__details" >
+                <div className="md:flex md:justify-around lg:flex    justify-center  custom-grid">
+                    <article className="experience__details " >
                         <div>
                             <img src={html} width={100}  />
                             <h4  className={"text-center"}>HTML</h4>
@@ -81,7 +81,7 @@ const Skills = () => {
                 </div></div>
             <div>
                 <h3 className={"text-center py-4"} >Tools I use everyday</h3>
-                <div className="md:flex md:justify-around flex flex-wrap justify-between custom-grid">
+                <div className="md:flex md:justify-around lg:flex  justify-between custom-grid">
                     <article className="experience__details" >
                         <div>
                             <img src={figma} width={80} />
