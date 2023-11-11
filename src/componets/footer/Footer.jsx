@@ -1,13 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './footer.css'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BsGithub} from 'react-icons/bs'
 import {AiFillYoutube} from 'react-icons/ai'
+import AOS from "aos";
+import 'aos/dist/aos.css';
 const Footer = () => {
+
+  useEffect(() => {
+    AOS.init({
+
+    });
+  }, []);
+
   return (
       <>
-    <footer className={""}>
+    <footer className={""} >
       <a href="/" ><span className={"text-xl text-white font-bold"}>Noor</span><span className={"text-2 text-xl px-2 font-bold text-garident"}>Mustafa</span></a>
 
       {/*<ul className="permalinks">*/}

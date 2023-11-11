@@ -1,17 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
-
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 
 const Experience = () => {
+
+    useEffect(() => {
+        AOS.init({
+
+        });
+    }, []);
+
   return (
     <section id='experience'>
-      <h5 >What Education I Have</h5>
-      <h2>Experience & Certification</h2>
+      <h5 data-aos="fade-down">What Education I Have</h5>
+      <h2 data-aos="fade-down" >Experience & Certification</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div className="experience__frontend" data-aos="fade-up-right">
           <h3 className={"text-xl "}>Work Experience</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -34,7 +42,7 @@ const Experience = () => {
 
           </div>
         </div>
-        <div className="experience__backend">
+        <div className="experience__backend" data-aos="fade-up-left">
         <h3>Certification</h3>
           <div className="experience__content">
             <article className="experience__details">

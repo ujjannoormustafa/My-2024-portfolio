@@ -1,16 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './header.css'
 import Me2 from '../../assests/bg.png'
 import HeaderSocials from './HeaderSocials'
-import ParticlesConfig from "../Config/ParticlesConfig";
-import ParticlesBackground from "../ParticlesBackground";
 import PraticlesBackground from "../ParticlesBackground";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 const Header = () => {
+
+  useEffect(() => {
+    AOS.init({
+
+    });
+  }, []);
   return (
     
     <header>
         <PraticlesBackground/>
-      <div className="container flex md:justify-between md:items-center  header__container" id={"home"}>
+      <div className="container flex md:justify-between md:items-center  header__container" id={"home"} >
         <div className={"hero-left md:w-3/5 lg:w-3/5 w-full"}>
           <h5 className={"mt-14"}>HELLO THERE, WELCOME TO MY SITE</h5>
           <h1 className={"md:text-5xl py-2 text-light text-2  name"}>I'm Noor Mustafa</h1>

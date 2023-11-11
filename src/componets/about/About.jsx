@@ -1,25 +1,35 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./about.css";
 import { CgAwards } from "react-icons/cg";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 import TabAbout from "../tab/TabAbout";
 import img from "../../assests/about/about_1.jpg"
 import img2 from "../../assests/about/about_2.png"
 import img3 from "../../assests/about/about_3.jfif"
 const About = () => {
+
+  useEffect(() => {
+    AOS.init({
+      // Initialization options go here (e.g., duration, easing, etc.)
+    });
+  }, []);
+
   return (
     <section id="about" className={"pt-24"}>
       {/*<Globe/>*/}
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5 data-aos="fade-down">Get To Know</h5>
+      <h2 data-aos="fade-down">About Me</h2>
     <div className="container about__container">
         {/*<div className="about__me">*/}
         {/*<div className="about__me-image">*/}
         {/*  <img src={ME} alt="About Image" />*/}
         {/*</div>*/}
 
-          <div className="max-w-96 px-4 lg:w-12/12">
+          <div className="max-w-96 px-4 lg:w-12/12" data-aos="fade-right">
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className="pb-3 lg:py-2 sm:py-4 cursor-pointer">
@@ -620,7 +630,7 @@ const About = () => {
           </div>
 
         {/*</div>*/}
-          <div className="about__content">
+          <div className="about__content" data-aos="fade-left"   data-aos-duration="500"> data-aos-easing="ease-in-sine">>
           <div className="about__cards">
             <article className="about__card">
               <CgAwards className={"mx-auto "} />

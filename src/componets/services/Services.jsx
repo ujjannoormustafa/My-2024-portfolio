@@ -1,14 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
-import {BsCheck, BsCheckLg, BsChevronCompactRight} from "react-icons/bs";
+import {BsCheckLg } from "react-icons/bs";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 const Services = () => {
+
+    useEffect(() => {
+        AOS.init({
+            // Initialization options go here (e.g., duration, easing, etc.)
+        });
+    }, []);
+
   return (
     <section id='services' className={"pt-10"}>
-      <h5 className={"mt-20"}>What I Offer</h5>
-      <h2>My Services</h2>
+      <h5 className={"mt-20"} data-aos="fade-up" >What I Offer</h5>
+      <h2 data-aos="fade-up" >My Services</h2>
       <div className="container services__container">
-          <div className={"service"}>
+          <div className={"service"} data-aos="flip-left" >
               <div className={" service__head"}>
                   <h3>Front-end Development</h3>
               </div>
@@ -19,7 +27,7 @@ const Services = () => {
 
               </ul>
           </div>
-          <div className={"service"}>
+          <div className={"service"} data-aos="flip-up" >
               <div className={" service__head"}>
                   <h3>UI/UX Design</h3>
               </div>
@@ -30,7 +38,7 @@ const Services = () => {
 
               </ul>
           </div>
-          <div className={"service"}>
+          <div className={"service"} data-aos="flip-right">
               <div className={" service__head"}>
                   <h3>Maintenance and Support</h3>
               </div>

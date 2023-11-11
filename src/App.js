@@ -10,7 +10,7 @@ import Footer from './componets/footer/Footer'
 import Headerbar from "./componets/navbar/Headerbar";
 import About2 from "./about2/About2";
 import Skills from "./componets/skills/Skills";
-import CallActionBanner from "./CallToAction/CallActionBanner";
+import CallActionBanner from "./componets/CallToAction/CallActionBanner";
 
 
 

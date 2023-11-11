@@ -57,7 +57,7 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background-color: #000000;
-
+    overflow-x: hidden;
     /*background-image: url(../src/assests/bg-texture.png);*/
 }
 
