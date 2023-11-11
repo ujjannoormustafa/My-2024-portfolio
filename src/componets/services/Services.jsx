@@ -4,8 +4,8 @@ import {BiCheck} from 'react-icons/bi'
 import {BsCheck, BsCheckLg, BsChevronCompactRight} from "react-icons/bs";
 const Services = () => {
   return (
-    <section id='services'>
-      <h5>What I Offer</h5>
+    <section id='services '>
+      <h5 className={"mt-20"}>What I Offer</h5>
       <h2>My Services</h2>
       <div className="container services__container">
           <div className={"service"}>

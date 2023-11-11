@@ -4,9 +4,16 @@ const TabAbout = () => {
     const [open, setOpen] = useState("home");
 
     const tabs = [
-        { id: "home", label: "Personal", content: "Hello there! I'm an 18-year-old self-taught developer with a passion for crafting seamless and user-friendly web experiences. Over the past two years, I have honed my skills in ReactJS and NextJS, delving into the dynamic world of front-end development. Currently, I proudly serve as a Frontend Developer at Fastech Systems, where I bring my expertise to the forefront of cutting-edge projects. My journey began with a transformative internship at Fastech, providing me with invaluable hands-on experience and a solid foundation for my ongoing exploration of the ever-evolving tech landscape. Join me as I continue to navigate the digital realm, pushing boundaries and transforming ideas into innovative web solutions." },
-        { id: "about", label: "Professional", content: "Update Very Soon!!" },
-        { id: "team", label: "Additional", content: "Upade Very Soon!!" },
+        { id: "home", label: "Professional", content: "I am a dedicated Frontend Developer specializing in React.js, Next.js, Tailwind CSS, and Ant Design. With six months of valuable experience gained through an internship at Fastech System, I have honed my skills in crafting responsive and user-friendly web applications. My proficiency lies in translating design concepts into efficient and elegant code. Currently open to new opportunities, I am eager to contribute my expertise to innovative projects and further enhance my skills in the dynamic field of web development." },
+        { id: "about", label: "Personal", content:
+                "Hey there! This is Noor Mustafa Ujjan, an 18-year-old individual based in Mirpur Khas, Sindh, Pakistan. My passion lies in exploring the realms of self-help literature, coding, and design. Having completed my FSC (12th grade), I am driven by a constant curiosity to learn and apply my knowledge in creative and meaningful ways. Whether delving into code, immersing myself in design projects, or finding inspiration in self-help books, I am dedicated to continuous personal and intellectual growth." },
+        {
+            id: "team",
+            label: "Additional",
+            content: `As a Frontend Developer, I bring a blend of technical acumen and soft skills, including strong communication, problem-solving, and analytical thinking. My teamwork skills are integral to delivering high-quality and innovative solutions. Proficient in English, Urdu, and Sindhi, I navigate projects with cultural sensitivity. Connect with me on LinkedIn to explore my professional journey, check out coding projects on GitHub, and catch a glimpse of my design explorations on Instagram. Stay tuned for educational content on my YouTube channel. Let's build something amazing together! My Socials Media Handles..
+            Linkedin : https://www.linkedin.com/in/noormustafa7/ ...... Github : https://github.com/ujjannoormustafa ............ Instagram : www.instagram.com/ujjannoormustafa7/ ................ `
+        },
+
         { id: "company", label: "Future Vision", content: "Update Very Soon!!" },
     ];
 

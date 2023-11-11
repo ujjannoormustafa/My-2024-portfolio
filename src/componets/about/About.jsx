@@ -4,7 +4,9 @@ import { CgAwards } from "react-icons/cg";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import TabAbout from "../tab/TabAbout";
-
+import img from "../../assests/about/about_1.jpg"
+import img2 from "../../assests/about/about_2.png"
+import img3 from "../../assests/about/about_3.jfif"
 const About = () => {
   return (
     <section id="about">
@@ -18,30 +20,30 @@ const About = () => {
           {/*  <img src={ME} alt="About Image" />*/}
           {/*</div>*/}
 
-          <div className="w-full px-4 lg:w-12/12">
+          <div className="max-w-96 px-4 lg:w-12/12">
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className="py-3 sm:py-4">
+                <div className="pb-3 lg:py-2 sm:py-4 cursor-pointer">
                   <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src={img}
                       alt=""
-                      className="w-full rounded-2xl"
+                      className="w-full h-[254px] rounded-2xl"
                   />
                 </div>
-                <div className="py-3 sm:py-4">
+                <div className="py-3 sm:py-4 cursor-pointer">
                   <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src={img3}
                       alt=""
-                      className="w-full rounded-2xl"
+                      className="w-full h-[254px] rounded-2xl"
                   />
                 </div>
               </div>
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className="relative z-10 my-4">
+              <div className="w-full px-3 sm:px-4 xl:w-1/2 cursor-pointer">
+                <div className="relative z-10  my-4">
                   <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src={img2}
                       alt=""
-                      className="w-full rounded-2xl"
+                      className="w-full h-[274px] rounded-2xl"
                   />
                   <span className="absolute -right-7 -bottom-7 z-[-1]">
                       <svg
@@ -622,27 +624,26 @@ const About = () => {
           <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <CgAwards />
+              <CgAwards className={"mx-auto "} />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>6+ Months </small>
             </article>
             <article className="about__card">
-              <FiUsers />
-              <h5>Clients</h5>
-              <small>50+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary />
+              <FiUsers className={"mx-auto text-xl"} />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>10+ Completed</small>
+            </article>
+            <article className="about__card">
+              <VscFolderLibrary className={"mx-auto text-xl"} />
+              <h5>Clients</h5>
+              <small>5+ Freelance</small>
             </article>
           </div>
             <h5 className={"text-2 text-center my-4 lg:hidden "}>Who am i </h5>
           {/* TabsAbout section */}
             <TabAbout/>
           {/* End TabsAbout Section */}
-
-          <a href="" className="btn btn-primary">Let's Talk</a>
+            <button className={"btn-15 custom-btn"}><a href="">Reach out to me</a></button>
         </div>
 
       </div>

@@ -12,14 +12,14 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Work Experience</h3>
+          <h3 className={"text-xl "}>Work Experience</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
              <div>
-             <h4>Intership</h4>
-              <small className='text-light '>At FasTech System jun-2023 to Aug-2023</small>
-              <p className='text-light'>little desc</p>
+             <h4>Internship</h4>
+              <small className='text-light '>At FasTech System April-2023 - May-2023</small>
+              {/*<small className='text-light'>gaining hands-on experience and contributing to impactful projects in a dynamic tech environment.</small>*/}
              </div>
             </article>
 
@@ -27,8 +27,8 @@ const Experience = () => {
                   <BsPatchCheckFill className='experience__details-icon' />
                   <div>
                       <h4>Front-end Developer</h4>
-                      <small className='text-light '>At FasTech System Aug-2023 to Present</small>
-                      <p className='text-light'>little desc</p>
+                      <small className='text-light '>At FasTech System Jun 2023 - Present · 5 mos</small>
+                      {/*<small className='text-light'>shaping user-centric interfaces and contributing to innovative web solutions for the past 5 months</small>*/}
                   </div>
               </article>
 
@@ -40,15 +40,16 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
              <div>
-              <h4>Introducation to Front-end developement</h4>
-              <small className='text-light'>from Meta <a href={"#"} >View</a> </small>
+              <h4>Introduction to Front-end development</h4>
+              <small className='text-light text-center'>from Coursera <a href={"Coursera"} >View</a> </small>
              </div>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
              <div>
              <h4>Programming with JavaScript</h4>
-              <small className='text-light'>from Couresra <a href={"#"}>View</a></small>
+              <small className='text-light'>from Coursera <a href={"#"}>View</a></small>
              </div>
             </article>
 

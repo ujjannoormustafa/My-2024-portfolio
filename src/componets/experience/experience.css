@@ -45,7 +45,7 @@
     display: flex;
     gap: 1rem;
     transition: .2s ease-in;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .experience__details:hover{
     transform: scale(1.09);
@@ -86,5 +86,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+    .icon-center{
+        align-items: center;
+        justify-content: center;
     }
 }

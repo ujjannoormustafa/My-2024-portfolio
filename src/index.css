@@ -56,7 +56,9 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assests/bg-texture.png);
+    background-color: #000000;
+
+    /*background-image: url(../src/assests/bg-texture.png);*/
 }
 
 /* ===================== General Styles */
@@ -145,6 +147,7 @@ text-shadow:
     box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
     border: 2px solid #00aced;
     color: #00aced;
+    margin-left: 28px;
 }
 .btn-15:hover{
     background-color: #00aced;
