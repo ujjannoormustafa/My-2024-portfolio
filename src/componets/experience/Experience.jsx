@@ -41,7 +41,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
              <div>
               <h4>Introduction to Front-end development</h4>
-              <small className='text-light text-center'>from Coursera <a href={"Coursera"} >View</a> </small>
+              <small className='text-light text-center'>from Coursera <a href={"https://coursera.org/share/e89971f4507a08d597276d786f4cf52a"} >View</a> </small>
              </div>
             </article>
 
@@ -49,7 +49,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
              <div>
              <h4>Programming with JavaScript</h4>
-              <small className='text-light'>from Coursera <a href={"#"}>View</a></small>
+              <small className='text-light'>from Coursera <a href={"https://coursera.org/share/e89971f4507a08d597276d786f4cf52a"}>View</a></small>
              </div>
             </article>
 

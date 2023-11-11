@@ -17,7 +17,7 @@ const Skills = () => {
 
     return (
 
-        <section className={"mt-20"} id={"skills"}>
+        <section className={"pt-24"} id={"skills"}>
             <h5 >What Skills I Have</h5>
             <h2>Tools and Technologies</h2>
 

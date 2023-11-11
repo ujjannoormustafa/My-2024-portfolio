@@ -24,6 +24,11 @@ function Headerbar(props) {
                             <a href={"#services"} className={"text-white"}>Services</a>
                         </li>
                         <button className={"btn-15 custom-btn " }> <a href={"#contact"}>Contact Me</a> </button>
+                        <button className="btn-15 custom-btn">
+                            <a href="https://wa.me/0307341821?text=Hello%20there!%20I%20would%20like%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer">
+                                WhatsApp
+                            </a>
+                        </button>
                     </ul>
                 </div>
             </div>

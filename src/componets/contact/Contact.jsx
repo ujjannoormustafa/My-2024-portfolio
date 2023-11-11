@@ -17,23 +17,10 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <div className="bg-gradient-to-tr from-purple-400 via-sky-400 to-indigo-500 lg:pl-40 pl-4 mb-3 ">
-        <div className="text-start w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-          <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-            <span className="block text-white">Let's turn your ideas into captivating experiences.<br/> Ready to start your next project together?</span>
-            <span className="block text-[#4db5ff] ">It's today or never.</span>
-          </h2>
-          <div className="lg:mt-0 lg:flex-shrink-0">
-            <div className="mt-8 ">
-              <button  className="btn-15 custom-btn"> <a href={"#contact"}>Send Message</a> </button>
-
-            </div>
-          </div>
-        </div>
-      </div>
 
 
-      <h5 id={"contact"}>Get In Touch</h5>
+
+      <h5 id={"contact"} className={"pt-24"}>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">

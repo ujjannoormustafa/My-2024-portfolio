@@ -9,16 +9,15 @@ import img2 from "../../assests/about/about_2.png"
 import img3 from "../../assests/about/about_3.jfif"
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className={"pt-24"}>
       {/*<Globe/>*/}
       <h5>Get To Know</h5>
       <h2>About Me</h2>
     <div className="container about__container">
         {/*<div className="about__me">*/}
-
-          {/*<div className="about__me-image">*/}
-          {/*  <img src={ME} alt="About Image" />*/}
-          {/*</div>*/}
+        {/*<div className="about__me-image">*/}
+        {/*  <img src={ME} alt="About Image" />*/}
+        {/*</div>*/}
 
           <div className="max-w-96 px-4 lg:w-12/12">
             <div className="flex items-center -mx-3 sm:-mx-4">
@@ -643,7 +642,7 @@ const About = () => {
           {/* TabsAbout section */}
             <TabAbout/>
           {/* End TabsAbout Section */}
-            <button className={"btn-15 custom-btn"}><a href="">Reach out to me</a></button>
+            <button className={"btn-15 custom-btn"}><a href="#contact">Reach out to me</a></button>
         </div>
 
       </div>

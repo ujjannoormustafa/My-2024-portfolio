@@ -10,8 +10,7 @@ const TabAbout = () => {
         {
             id: "team",
             label: "Additional",
-            content: `As a Frontend Developer, I bring a blend of technical acumen and soft skills, including strong communication, problem-solving, and analytical thinking. My teamwork skills are integral to delivering high-quality and innovative solutions. Proficient in English, Urdu, and Sindhi, I navigate projects with cultural sensitivity. Connect with me on LinkedIn to explore my professional journey, check out coding projects on GitHub, and catch a glimpse of my design explorations on Instagram. Stay tuned for educational content on my YouTube channel. Let's build something amazing together! My Socials Media Handles..
-            Linkedin : https://www.linkedin.com/in/noormustafa7/ ...... Github : https://github.com/ujjannoormustafa ............ Instagram : www.instagram.com/ujjannoormustafa7/ ................ `
+            content: `As a Frontend Developer, I blend technical expertise with strong Communication problem-solving, and analytical thinking. My teamwork skills are integral to delivering high-quality and innovative solutions. Proficient in English, Urdu, and Sindhi, Connect with me on LinkedIn, explore coding projects on GitHub, and find design inspirations on  [LinkedIn] (https://www.linkedin.com/in/noormustafa7/) [Instagram] (www.instagram.com/ujjannoormustafa7/)  [GitHub] (https://github.com/ujjannoormustafa).`
         },
 
         { id: "company", label: "Future Vision", content: "Update Very Soon!!" },

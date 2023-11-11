@@ -20,10 +20,10 @@ const board = [board1, board2, board3, board4]
 const Portfolio = () => {
   return (
      <section id='portfolio'>
-      <h5 className={"mt-20"}>My Recent Work</h5>
+      <h5 className={"pt-24"}>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-         <div className="container   py-6 sm:py-8 ">
+         <div className="container    sm:py-8 ">
              <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                  <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                      <div className="group relative flex h-48 items-center flex-col justify-center px-2 pb-1 overflow-hidden rounded-lg service shadow-lg md:h-80">
