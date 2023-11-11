@@ -74,7 +74,7 @@ header{
     z-index: -1;
     top: 10%;
     left: 10%;
-    animation: spin 3.5s linear infinite;
+    animation: spin 5.5s linear infinite;
 }
 
 .card::after {

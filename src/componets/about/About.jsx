@@ -630,7 +630,7 @@ const About = () => {
           </div>
 
         {/*</div>*/}
-          <div className="about__content" data-aos="fade-left"   data-aos-duration="500"> data-aos-easing="ease-in-sine">>
+          <div className="about__content" data-aos="fade-left"   data-aos-duration="500">
           <div className="about__cards">
             <article className="about__card">
               <CgAwards className={"mx-auto "} />

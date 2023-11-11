@@ -45,21 +45,21 @@ const Portfolio = () => {
                         <Slider pic={fastech}/>
                      </a >
 
-                     <a href="#" className="group relative flex h-48 items-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80" data-aos="fade-right">
+                     <a href="https://bisesuksindh-edu-6tm40gqtk-ujjannoormustafa.vercel.app" className="group relative flex h-48 items-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80" data-aos="fade-right">
                          <Slider pic={board}/>
                      </a>
                      <div className="group relative flex h-48 items-center flex-col justify-center px-2 pb-1 overflow-hidden rounded-lg service shadow-lg md:h-80" data-aos="fade-left">
                          <h2 className={"text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold py-1 md:py-4 lg:py-4"}>BISE Website</h2>
                          <h2 className={"text-sm text-center py-1 md:py-2"}>This is Board of Intermediate and Secondary Education (BISE) </h2>
-                         <a href="https://www.fastechsystem.com/"  target={"_blank"} className="btn btn-primary">Visit Live</a>
+                         <a href="https://bisesuksindh-edu-6tm40gqtk-ujjannoormustafa.vercel.app"  target={"_blank"} className="btn btn-primary">Visit Live</a>
                      </div>
 
                      <div className="group relative flex h-48 items-center flex-col justify-center px-2 pb-1 overflow-hidden rounded-lg service shadow-lg md:h-80" data-aos="fade-up-right">
                          <h2 className={"text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold py-1 md:py-4 lg:py-4"}>Portfolio Website</h2>
                          <h2 className={"text-sm text-center py-1 md:py-2"}>This is a Portfolio website create in Nextjs also use Threejs for create 3d earth globe </h2>
-                         <a href="https://www.fastechsystem.com/"  target={"_blank"} className="btn btn-primary">Visit Live</a>
+                         <a href="https://www.fahadshahzad.com"  target={"_blank"} className="btn btn-primary">Visit Live</a>
                      </div>
-                     <a href="#" className="group relative flex h-48 items-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80" data-aos="fade-up-left">
+                     <a href="https://www.fahadshahzad.com" className="group relative flex h-48 items-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80" data-aos="fade-up-left">
                         <Slider pic={portfolio}/>
                      </a>
 
