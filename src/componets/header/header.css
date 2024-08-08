@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
-header{
+header {
     height: 100vh;
     /*padding-top: 7rem;*/
     overflow: hidden;
 }
-.header__container{
+
+.header__container {
     height: 100%;
     position: relative;
 }
-.text-2{
+
+.text-2 {
     font-family: 'Montserrat', sans-serif;
 }
-.tag-line{
+
+.tag-line {
     font-weight: 200;
     padding: 4px 0;
     margin-right: 34px;
 }
-.name{
+
+.name {
     font-weight: 300;
 }
-.card img{
+
+.card img {
     width: fit-content;
     border-radius: 4px;
 }
 
 /*====== Garident Text ============*/
-.text-garident{
+.text-garident {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     background: -webkit-linear-gradient(55deg, #a520ca, #4db5ff);
@@ -40,6 +45,7 @@ header{
     initial-value: 132deg;
     inherits: false;
 }
+
 .card {
     background: rgba(25, 28, 41, 0.86);
     /*width: var(--card-width);*/
@@ -56,10 +62,12 @@ header{
     cursor: pointer;
     font-family: cursive;
 }
+
 .card:hover {
     color: rgb(88 199 250 / 100%);
     transition: color 1s;
 }
+
 /*.card:hover:before, .card:hover:after {*/
 /*    animation: none;*/
 /*    opacity: 0;*/
@@ -69,7 +77,7 @@ header{
     width: 107%;
     height: 107%;
     border-radius: 8px;
-    background-image: linear-gradient( var(--rotate) , #5ddcff, #3c67e3 43%, #a520ca);
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #a520ca);
     position: absolute;
     z-index: -1;
     top: 10%;
@@ -89,9 +97,7 @@ header{
     margin: 0 auto;
     transform: scale(0.8);
     filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-            var(--rotate)
-            , #5ddcff, #3c67e3 43%, #37CFA1);
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #37CFA1);
     opacity: 1;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
@@ -101,6 +107,7 @@ header{
     0% {
         --rotate: 0deg;
     }
+
     100% {
         --rotate: 360deg;
     }
@@ -109,15 +116,16 @@ header{
 /*end codepen code */
 
 /* ========== CTA styles ================== */
-.cta{
+.cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     font-size: 22px;
     /*justify-content: center;*/
 }
+
 /* ========== Headerbar socials ================== */
-.header__socials{
+.header__socials {
     display: flex;
     align-items: center;
     position: absolute;
@@ -125,35 +133,55 @@ header{
     left: 0;
     bottom: 3rem;
 }
+
 .header__socials a {
     font-size: 24px;
 
 }
-.header__socials::after{
+
+.header__socials::after {
     content: "";
     width: 1px;
     height: 26px;
     background: var(--color-primary);
 }
+
 /* ========== Me ================== */
-.me{
+.me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 33rem;
     position: absolute;
-    left:calc(50% - 11rem);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12em 0 0 ;
-   /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    border-radius: 12rem 12em 0 0;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
-.me img{
+
+.me img {
     width: 80%;
     margin-left: 12%;
 }
 
-/* ========== scroll down ================== */
-.scroll__down{
+.imgcard {
+    padding: 8px;
+
+}
+
+.imgcard img {
+    width: 56%;
     position: absolute;
+    bottom: 0%;
+
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ========== scroll down ================== */
+.scroll__down {
+    position: acsolute;
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
@@ -163,38 +191,43 @@ header{
 
 /*  Media queries (Medium devices) */
 @media screen and (max-width: 1024px) {
-   header{
-    height: 68vh;
-   }
+    header {
+        height: 68vh;
+    }
 }
 
 /*  Media queries (mobile devices) */
 @media screen and (max-width: 600px) {
-    header{
-     height: 100vh;
+    header {
+        height: 100vh;
 
     }
-    .header__container{
-    flex-direction: column;
-    justify-content: space-evenly;
+
+    .header__container {
+        flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
 
     }
-    .card{
+
+    .card {
         width: 72vw;
         margin-right: 30px;
 
     }
-    .f-end-d{
+
+    .f-end-d {
         font-size: 1.7rem;
         line-height: 1.5;
     }
-    .tag-line{
+
+    .tag-line {
         padding: 4px 0;
         margin-right: 34px;
     }
+
     .header__socials,
-    .scroll__down{
+    .scroll__down {
         display: none;
     }
- }
+}
