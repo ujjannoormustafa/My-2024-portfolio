@@ -19,19 +19,19 @@ import CallActionBanner from "./componets/CallToAction/CallActionBanner";
 const App = () => {
   return (
     <>
-    <Headerbar />
-    <Header/>
-    <Nav />
-    <About />
-     {/*<About2/>*/}
-    <Experience />
-    <Services />
-    <Skills/>
-    <Portfolio />
-     {/*<Testimonials />*/}
-     <CallActionBanner/>
-    <Contact />
-    <Footer />
+      <Headerbar />
+      <Header />
+      {/* <Nav /> */}
+      <About />
+      {/*<About2/>*/}
+      <Experience />
+      <Services />
+      <Skills />
+      <Portfolio />
+      {/*<Testimonials />*/}
+      <CallActionBanner />
+      <Contact />
+      <Footer />
     </>
   )
 }

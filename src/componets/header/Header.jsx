@@ -35,7 +35,7 @@ const Header = () => {
           <HeaderSocials />
         </div>
         <div className=" w-full imgcard  md:w-2/5 lg:w-2/5" >
-          <img src={Me2} alt="Pic" className={""} />
+          <img src={Me2} alt="Pic" className={"mainbg"} />
         </div>
 
         {/* <div className="card">*/}
