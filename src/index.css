@@ -4,17 +4,18 @@
 @tailwind utilities;
 
 
-*{
- margin: 0;
- padding: 0;
- border: 0;
- outline: 0;
- box-sizing: border-box;
- list-style: none;
- text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 
 }
-:root{
+
+:root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
@@ -27,10 +28,11 @@
     --transtion: all 400ms ease
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     /*display: none;*/
 }
 
@@ -51,7 +53,7 @@ html{
 }
 
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
@@ -62,27 +64,30 @@ body{
 }
 
 /* ===================== General Styles */
-.container{
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
 h4,
-h5{
-font-weight: 500;
+h5 {
+    font-weight: 500;
 }
-h1{
+
+h1 {
     font-size: 2.5rem;
 }
-.text-shado{
-text-shadow:
-0 0 5px #0bf4f3,
-0 0 10px #0bf4f3,
-0 0 20px #0bf4f3,
-0 0 40px #0bf4f3,
-0 0 80px #0bf4f3;
+
+.text-shado {
+    text-shadow:
+        0 0 5px #0bf4f3,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
 }
 
 .custom-btn {
@@ -108,8 +113,9 @@ text-shadow:
     color: #00aced;
     border: none;
     z-index: 2;
-   margin: 0px 4px;
+    margin: 0px 4px;
 }
+
 .btn-14:before,
 .btn-14:after {
     position: absolute;
@@ -120,7 +126,8 @@ text-shadow:
     z-index: -1;
     transition: all 0.3s ease;
 }
-.btn-14:before{
+
+.btn-14:before {
     top: 0;
     left: 0;
     border-bottom-color: transparent;
@@ -128,7 +135,8 @@ text-shadow:
     border-top-color: #00aced;
     border-left-color: #00aced;
 }
-.btn-14:after{
+
+.btn-14:after {
     bottom: 0;
     right: 0;
     border-top-color: transparent;
@@ -136,6 +144,7 @@ text-shadow:
     border-bottom-color: #00aced;
     border-right-color: #00aced;
 }
+
 .btn-14:hover:before,
 .btn-14:hover:after {
     border-color: #00aced;
@@ -143,40 +152,54 @@ text-shadow:
     width: 100%;
     box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
 }
-.btn-15{
+
+.btn-15 {
     box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
     border: 2px solid #00aced;
     color: #00aced;
     margin-left: 28px;
 }
-.btn-15:hover{
+
+.btn-15:hover {
     background-color: #00aced;
     color: #fff;
 }
 
+.fix-align {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 
-section{
+section {
     margin-top: 1rem;
     /* height: 100vh; */
 }
-section > h2, section > h5{
+
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-light);
 
 }
-section > h2{
+
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
     font-size: 56px;
 }
-a{
+
+a {
     color: var(--color-primary);
     transition: var(--transtion);
 }
-a:hover{
+
+a:hover {
     color: var(--color-white);
 }
-.btn{
+
+.btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -186,16 +209,19 @@ a:hover{
     border: 1px solid var(--color-primary);
     transform: var(--transtion);
 }
-.btn:hover{
+
+.btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
-.btn-primary{
+
+.btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
 
 }
+
 /*img{*/
 /*    display: block;*/
 /*    width: 98.5%;*/
@@ -206,20 +232,23 @@ a:hover{
 /*  Media queries (Medium devices) */
 
 @media screen and (max-width: 1024px) {
-    .container{
+    .container {
         width: var(--container-width-md);
     }
-    section{
+
+    section {
         margin-top: 6rem;
     }
 }
+
 /*  Media queries (small devices) */
 
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         width: var(--container-width-sm);
     }
-    section{
+
+    section {
         margin-top: 2rem;
     }
 }
@@ -228,27 +257,27 @@ a:hover{
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top: 50vh;
 
 }
 
-.context h1{
+.context h1 {
     text-align: center;
     color: #fff;
     font-size: 50px;
 }
 
 
-.area{
+.area {
     background: #4e54c8;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
-    height:100vh;
+    height: 100vh;
 
 
 }
 
-.circles{
+.circles {
     position: absolute;
     top: 0;
     left: 0;
@@ -257,7 +286,7 @@ a:hover{
     overflow: hidden;
 }
 
-.circles li{
+.circles li {
     position: absolute;
     display: block;
     list-style: none;
@@ -269,7 +298,7 @@ a:hover{
 
 }
 
-.circles li:nth-child(1){
+.circles li:nth-child(1) {
     left: 25%;
     width: 80px;
     height: 80px;
@@ -277,7 +306,7 @@ a:hover{
 }
 
 
-.circles li:nth-child(2){
+.circles li:nth-child(2) {
     left: 10%;
     width: 20px;
     height: 20px;
@@ -285,14 +314,14 @@ a:hover{
     animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(3) {
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
 
-.circles li:nth-child(4){
+.circles li:nth-child(4) {
     left: 40%;
     width: 60px;
     height: 60px;
@@ -300,28 +329,28 @@ a:hover{
     animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.circles li:nth-child(5) {
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.circles li:nth-child(6) {
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+.circles li:nth-child(7) {
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+.circles li:nth-child(8) {
     left: 50%;
     width: 25px;
     height: 25px;
@@ -329,7 +358,7 @@ a:hover{
     animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.circles li:nth-child(9) {
     left: 20%;
     width: 15px;
     height: 15px;
@@ -337,7 +366,7 @@ a:hover{
     animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.circles li:nth-child(10) {
     left: 85%;
     width: 150px;
     height: 150px;
@@ -349,13 +378,13 @@ a:hover{
 
 @keyframes animate {
 
-    0%{
+    0% {
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
 
-    100%{
+    100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;

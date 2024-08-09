@@ -39,7 +39,7 @@ function Headerbar(props) {
                     <li className="relative after:absolute after:bg-[#4DB5FFFF] mx-2 after:bottom-0 after:left-0 after:h-[4px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">
                         <a href={"#services"} className={"text-white"}>Services</a>
                     </li>
-                    <button className={"btn-15 custom-btn "}> <a href={"#contact"}>Contact Me</a> </button>
+                    <a href={"#contact"}>   <button className={"btn-15 custom-btn "}> Contact Me </button></a>
                     {/* <button className="btn-15 custom-btn">
                             <a href="https://wa.me/0307341821?text=Hello%20there!%20I%20would%20like%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer">
                                 WhatsApp
